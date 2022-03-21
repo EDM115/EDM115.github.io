@@ -4,15 +4,16 @@
 <meta http-equiv="refresh" content="0; URL=https://stpaul.multipurpose-server.workers.dev/">
 <link rel="canonical" href="https://stpaul.multipurpose-server.workers.dev/">
 <script>
-        window.onload = function () {
-            const destination = window.location.href;
-            if (window.location.href.includes("edm115.github.io/stpaul")) {
-                const redirectLocation = window.location.href.replace(
-                    "edm115.github.io/stpaul",
-                    "stpaul.multipurpose-server.workers.dev"
-                );
-                document.getElementById("body").innerHTML = "Redirecting to " + redirectLocation + " ...";
-                window.location.href = redirectLocation;
-            }
-        }
-    </script>
+	window.onload = function () {
+		const destination = window.location.href;
+			if (window.location.href.includes("edm115.github.io/stpaul")) {
+				setTimeout(() => {console.log("await")}, 5000);
+				const redirectLocation = window.location.href.replace(
+					"edm115.github.io/stpaul",
+					"stpaul.multipurpose-server.workers.dev"
+				);
+				document.getElementById("body").innerHTML = "Redirecting to " + redirectLocation + " ...";
+				window.location.href = redirectLocation;
+			}
+	}
+</script>
