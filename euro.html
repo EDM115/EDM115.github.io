@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Redirecting to https://telegra.ph/</title>
+<meta http-equiv="refresh" content="0; URL=https://telegra.ph/">
+<link rel="canonical" href="https://telegra.ph/">
+<script>
+	window.onload = function () {
+		const destination = window.location.href;
+		setTimeout(() => {console.log("await")}, 2000);
+			if (window.location.href.includes("edm115.github.io/euro")) {
+				const redirectLocation = window.location.href.replace(
+					"edm115.github.io/euro",
+					"telegra.ph"
+				);
+				document.getElementById("body").innerHTML = "Redirecting to " + redirectLocation + " ...";
+				window.location.href = redirectLocation;
+			}
+	}
+</script>
