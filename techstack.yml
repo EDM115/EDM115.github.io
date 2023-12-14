@@ -1,0 +1,27 @@
+repo_name: EDM115/EDM115.github.io
+report_id: 9cc81a6628c481270b1b14361c336208
+repo_type: Public
+timestamp: '2023-12-14T09:43:26+00:00'
+requested_by: EDM115
+provider: github
+branch: main
+detected_tools_count: 2
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: HTML
+  description: Hypertext Markup Language for creating web pages.
+  website_url: http://
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source: 404.html
+  last_updated_by: EDM 1.15
+  last_updated_on: 2022-03-02 14:54:20.000000000 Z
